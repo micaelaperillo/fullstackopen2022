@@ -1,0 +1,14 @@
+title 0.6: New note in Single page app diagram
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+
+note over server:
+a new note is sent to the server
+end note
+
+server->browser: Respose: the note was created
+
+note over browser:
+browser starts executing code 
+from the server to show the new note
+end note
